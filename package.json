@@ -1,0 +1,21 @@
+{
+	"name": "Fusebox-React-Boilerplate",
+	"author": "Emmanuel Gomez",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "ISC",
+	"scripts": {
+		"clean": "node fuse clean",
+		"start": "node fuse",
+		"build": "node fuse build"
+	},
+	"dependencies": {
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2"
+	},
+	"devDependencies": {
+		"fuse-box": "^3.5.0",
+		"typescript": "^3.0.3",
+		"uglify-es": "^3.3.9"
+	}
+}
