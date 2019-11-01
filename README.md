@@ -1,4 +1,4 @@
-# Fusebox-React-Boilerplate
+# Atomizer
 
 ```
 npm install

@@ -8,6 +8,7 @@ context({
 			homeDir : "./src",
 			output : "./dist/$name.js",
 			useTypescriptCompiler : true,
+			sourceMaps: !this.isProduction,
 			plugins: [
 				CSSPlugin(),
 				SVGPlugin(),

@@ -1,5 +1,5 @@
 {
-	"name": "Fusebox-React-Boilerplate",
+	"name": "atomizer",
 	"author": "Emmanuel Gomez",
 	"version": "1.0.0",
 	"main": "index.js",
@@ -7,15 +7,17 @@
 	"scripts": {
 		"clean": "node fuse clean",
 		"start": "node fuse",
-		"build": "node fuse build"
+		"build": "node fuse clean && node fuse build"
 	},
 	"dependencies": {
-		"react": "^16.5.2",
-		"react-dom": "^16.5.2"
+		"babel-cli": "^6.26.0"
 	},
 	"devDependencies": {
+		"@types/react": "^16.9.11",
 		"fuse-box": "^3.5.0",
 		"typescript": "^3.0.3",
-		"uglify-es": "^3.3.9"
+		"uglify-es": "^3.3.9",
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2"
 	}
 }
