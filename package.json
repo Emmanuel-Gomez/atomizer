@@ -1,9 +1,14 @@
 {
-	"name": "atomizer",
+	"name": "@component-library/atomizer",
 	"author": "Emmanuel Gomez",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "dist/index.js",
+	"module": "dist/index.js",
 	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Emmanuel-Gomez/atomizer"
+	},
 	"scripts": {
 		"clean": "node fuse clean",
 		"start": "node fuse",
@@ -19,5 +24,9 @@
 		"uglify-es": "^3.3.9",
 		"react": "^16.5.2",
 		"react-dom": "^16.5.2"
-	}
+	},
+	"keywords": [
+		"component-library",
+		"atomic-design"
+	]
 }
