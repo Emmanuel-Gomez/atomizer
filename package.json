@@ -1,5 +1,5 @@
 {
-	"name": "@component-library/atomizer",
+	"name": "@emmanuelgomez/atomizer",
 	"author": "Emmanuel Gomez",
 	"version": "1.0.0",
 	"main": "dist/index.js",
